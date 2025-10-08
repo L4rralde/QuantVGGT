@@ -25,14 +25,11 @@ This project is the official implementation of our QuantVGGT: "Quantized Visual 
 If you find *QuantVGGT* is useful and helpful to your work, please kindly cite this paper:
 
 ```
-@misc{feng2025quantizedvisualgeometrygrounded,
-      title={Quantized Visual Geometry Grounded Transformer}, 
-      author={Weilun Feng and Haotong Qin and Mingqiang Wu and Chuanguang Yang and Yuqi Li and Xiangqi Li and Zhulin An and Libo Huang and Yulun Zhang and Michele Magno and Yongjun Xu},
-      year={2025},
-      eprint={2509.21302},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2509.21302}, 
+@article{feng2025quantized,
+  title={Quantized Visual Geometry Grounded Transformer},
+  author={Feng, Weilun and Qin, Haotong and Wu, Mingqiang and Yang, Chuanguang and Li, Yuqi and Li, Xiangqi and An, Zhulin and Huang, Libo and Zhang, Yulun and Magno, Michele and others},
+  journal={arXiv preprint arXiv:2509.21302},
+  year={2025}
 }
 ```
 
