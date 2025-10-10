@@ -16,9 +16,36 @@ This project is the official implementation of our QuantVGGT: "Quantized Visual 
 
 ![result](imgs/result.png)
 
+## Updates
+
+- [October 10, 2025] Evaluation code for reproducing our camera pose estimation results on Co3D is now available.
+
+## Quick Start
+
+First, clone this repository to your local machine, and install the dependencies (torch, torchvision, numpy, Pillow, and huggingface_hub).
+
+```
+git clone git@github.com:wlfeng0509/QuantVGGT.git
+cd QuantVGGT
+pip install -r requirements.txt
+```
+
+Then download the pre trained weights provided by [VGGT](https://github.com/facebookresearch/vggt) and prepare Co3D dataset following [this](https://github.com/facebookresearch/vggt/tree/evaluation/evaluation).
+
+Then download the pre trained W4A4 quantization parameters from [huggingface](https://huggingface.co/wlfeng/QuantVGGT/tree/main) and place the downloaded folder under *evaluation\outputs\w4a4* branch.
+
+We can now use the provided script for inference **(remember to change the data path within the script)**.
+
+```
+cd evaluation
+bash test.sh
+```
+
+Also, you can use the quantized model for predicting other 3D attributes following the guidance [here](https://github.com/facebookresearch/vggt/tree/evaluation#detailed-usage).
+
 ## Comments
 
-- Our code will be released soon!
+* Our codebase is heavily builds on [VGGT](https://github.com/facebookresearch/vggt) and [QuaRot](https://github.com/spcl/QuaRot). Thanks for open-sourcing!
 
 ## BibTeX
 
