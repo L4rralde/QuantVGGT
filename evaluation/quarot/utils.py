@@ -1,5 +1,5 @@
 from .args_utils import parser_gen, get_config, create_logger
-from .quarot_linear import VGGTQuantizedLinea
+from .quarot_linear import VGGTQuantizedLinear
 # from .train_utils import cali_qs_quant
 from .function_utils import get_paras_dict_by_name
 import torch.nn as nn
