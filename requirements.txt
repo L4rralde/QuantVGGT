@@ -1,7 +1,9 @@
-torch==2.3.1
-torchvision==0.18.1
-numpy==1.26.1
+torch
+torchvision
+numpy<2
 Pillow
 huggingface_hub
 einops
 safetensors
+termcolor #FIXME. Remove this dependency
+scipy #FIXME. Remove this dependency
